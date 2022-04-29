@@ -1,8 +1,114 @@
-body {
-  background-color: wheat;
+div .logo {
+  display: inline-block;
 }
 
-h1 {
-  color: steelblue;
-  border: black 1px;
+div .logo h1 {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+nav {
+  display: inline-block;
+  position: relative;
+  left: 45rem;
+  width: 5rem;
+  text-align: center;
+  background-color: lightgray;
+}
+nav h1 {
+  display: inline-block;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  height: 556px;
+  width: 942px;
+  background-color: ;
+}
+
+section:nth-of-type(1) {
+  margin-bottom: 0px;
+}
+
+.image {
+  display: inline-block;
+}
+img {
+  height: 240px;
+  width: 240px;
+  margin: 5px;
+  float: left;
+}
+
+div .column-2 {
+  height: 100%;
+  width: 500px;
+  float: right;
+  padding: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.qoute_block {
+  display: inline-block;
+  width: 50%;
+}
+
+p {
+  display: inline-block;
+  font-size: 2rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+div .row {
+  display: block;
+  margin-top: 80px;
+  height: 10px;
+}
+
+#languages {
+  display: inline;
+}
+
+#download {
+  display: inline-block;
+  text-align: bottom;
+}
+
+div .name-tag {
+  display: inline-block;
+  float: left;
+}
+
+hr {
+  margin-top: -10px;
+  margin-bottom: 0;
+  color: #000;
+}
+section:nth-of-type(2) {
+  text-align: center;
+}
+
+article {
+  height: 290px;
+  width: 50%;
+  background-color: gainsboro;
+  display: inline-block;
+}
+
+article ul {
+  list-style: none;
+  text-align: left;
+}
+
+.footer {
+  background-color: black;
+  height: 140px;
+}
+
+.footer span {
+  color: blanchedalmond;
 }
