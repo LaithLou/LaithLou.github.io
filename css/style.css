@@ -1,21 +1,44 @@
-div .logo {
+html {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a {
+  color: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_container {
+  width: 830px;
+  margin-right: 0;
+}
+
+div .logo,
+div .logo h1 {
   display: inline-block;
 }
 
 div .logo h1 {
-  display: inline-block;
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
 nav {
-  display: inline-block;
-  position: relative;
-  left: 45rem;
-  width: 5rem;
-  text-align: center;
-  background-color: lightgray;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
 }
+
 nav h1 {
   display: inline-block;
 }
@@ -25,11 +48,17 @@ nav h1 {
   margin-left: auto;
   height: 556px;
   width: 942px;
-  background-color: ;
+  text-align: center;
 }
 
 section:nth-of-type(1) {
   margin-bottom: 0px;
+  background: white;
+}
+
+section:nth-of-type(2) {
+  margin-bottom: 0px;
+  background: white;
 }
 
 .image {
@@ -70,33 +99,48 @@ div .row {
 }
 
 #languages {
-  display: inline;
+  display: inline-block;
+  position: relative;
+  right: 90px;
+  margin-right: 50px;
 }
 
 #download {
   display: inline-block;
-  text-align: bottom;
 }
 
-div .name-tag {
+.name-tag {
   display: inline-block;
-  float: left;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.name-tag h6,
+.name-tag h4 {
+  font-family: "Vazirmatn", sans-serif;
+  margin-top: 0px;
 }
 
 hr {
   margin-top: -10px;
   margin-bottom: 0;
   color: #000;
+  margin-left: auto;
+  margin-right: auto;
 }
-section:nth-of-type(2) {
+
+section:nth-of-type(2),
+.header_container {
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 article {
   height: 290px;
   width: 50%;
-  background-color: gainsboro;
-  display: inline-block;
+  display: flex;
+  justify-content: space-around;
 }
 
 article ul {
@@ -104,11 +148,25 @@ article ul {
   text-align: left;
 }
 
-.footer {
+article p {
+  font-size: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+section .footer {
   background-color: black;
-  height: 140px;
+  height: 120px;
+  width: 100%;
 }
 
-.footer span {
-  color: blanchedalmond;
+.footer {
+  text-align: center;
+  color: rgba(136, 136, 136, 0.349);
+  padding: 10px;
+}
+
+.footer p {
+  font-size: 16px;
+  margin: 10px 0px;
+  font-family: "Vazirmatn", sans-serif;
 }
