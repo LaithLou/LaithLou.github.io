@@ -39,6 +39,19 @@ nav {
   margin-left: auto;
 }
 
+.button {
+  border-radius: 60px;
+  width: 100px;
+  height: 70px;
+  text-align: center;
+  transition: background-color linear, 1s ease-out;
+}
+
+.button:hover {
+  background-color: rgba(201, 201, 201, 0.623);
+}
+
+
 nav h1 {
   display: inline-block;
 }
