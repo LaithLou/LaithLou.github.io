@@ -100,7 +100,7 @@ div .column-2 {
 
 p {
   display: inline-block;
-  font-size: 5rem;
+  font-size: 2rem;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -162,7 +162,7 @@ article ul {
 }
 
 article p {
-  font-size: 10px;
+  font-size: 15px;
   margin-left: 10px;
   margin-top: 5px;
 }
