@@ -167,7 +167,6 @@ section:nth-of-type(2),
 .header_container {
   text-align: center;
   display: flex;
-  justify-content: space-around;
 }
 
 article {
@@ -180,7 +179,7 @@ article {
 article ul {
   list-style: none;
   text-align: left;
-  margin-right: 5px;
+  margin-right: 50px;
 }
 
 article p {
